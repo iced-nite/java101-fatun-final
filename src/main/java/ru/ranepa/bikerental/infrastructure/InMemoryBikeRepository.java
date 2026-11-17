@@ -11,18 +11,18 @@ public class InMemoryBikeRepository implements BikeRepository {
 
     @Override
     public void add(Bike bike) {
-        // TODO
+        // TODO добавить bike в список bikes
     }
 
     @Override
     public List<Bike> findAll() {
-        // TODO
+        // TODO вернуть список bikes
         return null;
     }
 
     @Override
     public Bike findByName(String name) {
-        // TODO
+        // TODO пройти по списку и вернуть велосипед с таким названием, иначе null
         return null;
     }
 }

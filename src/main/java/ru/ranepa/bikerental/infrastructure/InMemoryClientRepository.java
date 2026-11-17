@@ -11,18 +11,18 @@ public class InMemoryClientRepository implements ClientRepository {
 
     @Override
     public void add(Client client) {
-        // TODO
+        // TODO добавить client в список clients
     }
 
     @Override
     public List<Client> findAll() {
-        // TODO
+        // TODO вернуть список clients
         return null;
     }
 
     @Override
     public Client findByName(String name) {
-        // TODO
+        // TODO пройти по списку и вернуть клиента с таким именем, иначе null
         return null;
     }
 }

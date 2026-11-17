@@ -13,32 +13,36 @@ public class BikeService {
     }
 
     public boolean addBike(String name, double pricePerHour) {
-        // TODO
+        // TODO проверить, что название не пустое и цена больше 0;
+        // TODO проверить, что велосипеда с таким названием ещё нет;
+        // TODO создать Bike и добавить через bikeRepository.add(...)
         return false;
     }
 
     public List<Bike> getAllBikes() {
-        // TODO
+        // TODO вернуть список всех велосипедов из bikeRepository
         return null;
     }
 
     public Bike findBikeByName(String name) {
-        // TODO
+        // TODO найти велосипед через bikeRepository.findByName(...)
         return null;
     }
 
     public boolean rentBike(String bikeName, String clientName) {
-        // TODO
+        // TODO проверить, что велосипед существует и не выдан;
+        // TODO проверить, что клиент существует;
+        // TODO пометить велосипед как выданный
         return false;
     }
 
     public int countBikes() {
-        // TODO
+        // TODO вернуть количество всех велосипедов
         return 0;
     }
 
     public int countRentedBikes() {
-        // TODO
+        // TODO вернуть количество выданных велосипедов
         return 0;
     }
 }

@@ -13,22 +13,24 @@ public class ClientService {
     }
 
     public boolean addClient(String name, String phone) {
-        // TODO
+        // TODO проверить, что имя и телефон не пустые;
+        // TODO проверить, что клиента с таким именем ещё нет;
+        // TODO создать Client и добавить через clientRepository.add(...)
         return false;
     }
 
     public List<Client> getAllClients() {
-        // TODO
+        // TODO вернуть список всех клиентов из clientRepository
         return null;
     }
 
     public Client findClientByName(String name) {
-        // TODO
+        // TODO найти клиента через clientRepository.findByName(...)
         return null;
     }
 
     public int countClients() {
-        // TODO
+        // TODO вернуть количество клиентов
         return 0;
     }
 }
